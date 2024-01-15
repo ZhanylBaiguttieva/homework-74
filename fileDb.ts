@@ -2,7 +2,7 @@ import {promises as fs} from 'fs';
 import crypto from 'crypto';
 import {Message} from "./types";
 import messages from "./routers/messages";
-const path = 'messages';
+const path = './messages';
 
 const fileDb = {
     async getItems() {
